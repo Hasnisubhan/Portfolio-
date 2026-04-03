@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Hasni Subhan Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- PROFILE -->
+<section class="profile">
+<div class="profile-img-wrapper">
+  <img src="https://raw.githubusercontent.com/Hasnisubhan/Portfolio-/refs/heads/main/IMG_9814.JPG" class="profile-img">
+  <span class="online-dot"></span>
+</div>
+
+
+  <h1>Hasni Subhan</h1>
+<p class="bio">
+  Creative video editor & 3D artist passionate about cinematic visuals, VFX, and storytelling. I specialize in After Effects, Blender, and creating high-quality content for social media.
+</p>
+<div class="info">
+  <p><i class="fa-solid fa-calendar"></i> <span id="dob">2003-11-01</span> <span id="age"></span></p>
+  <p><i class="fa-solid fa-phone"></i><a href="tel:+94784582025">078 458 2025</a></p>
+  <p><i class="fa-solid fa-location-dot"></i> Panadura, Sr Lanka</p>
+  <p><i class="fa-solid fa-envelope"></i> <a href="mailto: hasnisubhan@gmail.com">hasnisubhan@gmail.com</a></p>
+</div>
+</section>
+
+<hr class="divider">
+
+<!-- SKILLS -->
+<section class="skills">
+  <h2>Skills</h2>
+
+  <div class="skill">
+    <p>Video Editing</p>
+    <div class="bar"><span style="width:90%"></span></div>
+  </div>
+  
+  <div class="skill">
+    <p>Color Grading</p>
+    <div class="bar"><span style="width:60%"></span></div>
+  </div>
+  
+  <div class="skill">
+    <p>3D Modeling</p>
+    <div class="bar"><span style="width:80%"></span></div>
+  </div>
+
+  <div class="skill">
+    <p>HTML/CSS</p>
+    <div class="bar"><span style="width:85%"></span></div>
+  </div>
+</section>
+
+<!-- RESUME -->
+<section class="resume">
+  <a href="resume.pdf" target="_blank" class="btn">View Resume</a>
+</section>
+
+<hr class="divider">
+
+<!-- Softwares -->
+<section class="software">
+  <h2>Software</h2>
+
+  <div class="software-grid">
+
+    <div class="soft-card" style="--percent:95">
+      <img src="https://cdn-icons-png.flaticon.com/128/5968/5968428.png">
+      <p>After Effects</p>
+    </div>
+
+    <div class="soft-card" style="--percent:80">
+      <img src="https://img.icons8.com/?size=96&id=65231&format=png">
+      <p>Blender</p>
+    </div>
+
+    <div class="soft-card" style="--percent:75">
+      <img src="https://cdn-icons-png.flaticon.com/128/5968/5968520.png">
+      <p>Photoshop</p>
+    </div>
+
+    <div class="soft-card" style="--percent:85">
+      <img src="https://www.image-line.com/innovaeditor/assets/FLStudio20_MasterIcon.png">
+      <p>FL Studio</p>
+    </div>
+
+    <div class="soft-card" style="--percent:55">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/DaVinci_Resolve_Studio.png">
+      <p>Davinci Resolve</p>
+    </div>
+    
+     <div class="soft-card" style="--percent:100">
+      <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/capcut-icon.png">
+      <p>Capcut</p>
+    </div>   
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- PORTFOLIO -->
+<section class="portfolio">
+  <h2>Portfolio</h2>
+
+<div class="tabs">
+  <button class="video-tab active" onclick="showTab('video', this)">Video Editing</button>
+  <button class="model-tab" onclick="showTab('3d', this)">3D Modeling</button>
+</div>
+
+  <!-- VIDEO -->
+<div id="video" class="tab-content active">
+
+  <!-- CATEGORY -->
+  <div class="category">
+    <h3>Speedramp</h3>
+
+    <div class="grid">
+
+<div class="thumb-box" onclick="openModalWithInfo('https://res.cloudinary.com/dtxvap5tq/video/upload/snaptik_7530621747658312978_v3_gh5jy9.mp4', 
+  'TVS Raider Speedramp video. #honorp30pro #60fps')">
+  <img src="https://github.com/Hasnisubhan/Portfolio-/blob/main/video-thumbnail/IMG_20260327_121856_791.png?raw=true">
+  <div class="play-btn">▶</div>
+</div> 
+  
+  
+<div class="thumb-box" onclick="openModalWithInfo('https://res.cloudinary.com/dtxvap5tq/video/upload/snaptik_7530563614512516360_v3_yqwtul.mp4', 
+  'Phone Shop promotion speedramp edit. #ae')">
+  <img src="https://raw.githubusercontent.com/Hasnisubhan/Portfolio-/refs/heads/main/video-thumbnail/IMG_20260327_120853_714.png">
+  <div class="play-btn">▶</div>
+</div> 
+
+<div class="thumb-box" onclick="openModalWithInfo('https://res.cloudinary.com/dtxvap5tq/video/upload/fe0d1c5960387f337f50cb743ade826b_ysuuhe.mp4','Ntorq Speedramp. #bikepromo #withoutgimbal')">
+  <img src="https://raw.githubusercontent.com/Hasnisubhan/Portfolio-/refs/heads/main/video-thumbnail/IMG_20260327_162841_450.png">
+  <div class="play-btn">▶</div>
+</div>
+
+<div class="thumb-box" onclick="openModalWithInfo('https://res.cloudinary.com/dtxvap5tq/video/upload/snaptik_7475771459613347080_v3_bfmivl.mp4','Supermarket calculator speedramp. #astoria #mobileedit')">
+  <img src="https://github.com/Hasnisubhan/Portfolio-/blob/main/video-thumbnail/IMG_20260327_124601_773.png?raw=true">
+  <div class="play-btn">▶</div>
+</div>
+
+<div class="thumb-box" onclick="openModalWithInfo('https://res.cloudinary.com/dtxvap5tq/video/upload/snaptik_7406962225165929746_v3_c6zxaw.mp4','Vape or product speedramp edit. #ae #withoutgimbal')">
+  <img src="https://github.com/Hasnisubhan/Portfolio-/blob/main/video-thumbnail/IMG_20260327_125333_074.png?raw=true">
+  <div class="play-btn">▶</div>
+</div>
+
+</div>
+</div>
+
+  <!-- CATEGORY 2 -->
+  <div class="category">
+    <h3>Cinematic</h3>
+    <div class="grid">
+
+<div class="thumb-box" onclick="openModalWithInfo('https://res.cloudinary.com/dtxvap5tq/video/upload/snaptik_7416040256622939410_v3_fstoth.mp4','Travel to Nawalapitiya vlog intro. #nature')">
+  <img src="https://github.com/Hasnisubhan/Portfolio-/blob/main/video-thumbnail/IMG_20260327_130043_992.png?raw=true">
+  <div class="play-btn">▶</div>  
+</div>         
+
+<div class="thumb-box" onclick="openModalWithInfo('https://res.cloudinary.com/dtxvap5tq/video/upload/snaptik_7406628479103503623_v3_kttbsw.mp4','Time freezed edit short story. #ae')">
+  <img src="https://github.com/Hasnisubhan/Portfolio-/blob/main/video-thumbnail/IMG_20260327_130458_163.png?raw=true">
+  <div class="play-btn">▶</div>
+</div> 
+
+<div class="thumb-box" onclick="openModalWithInfo('https://res.cloudinary.com/dtxvap5tq/video/upload/snaptik_7391508884952829191_v3_xtdwiw.mp4','Travel vlog intro #kollupitiya #chinese')">
+  <img src="https://github.com/Hasnisubhan/Portfolio-/blob/main/video-thumbnail/IMG_20260327_131334_595.png?raw=true">
+  <div class="play-btn">▶</div>
+</div> 
+
+<div class="thumb-box" onclick="openModalWithInfo('https://res.cloudinary.com/dtxvap5tq/video/upload/snaptik_7404806730128837906_v3_ol9cbj.mp4','Weather change vfx. #ae')">
+  <img src="https://raw.githubusercontent.com/Hasnisubhan/Portfolio-/refs/heads/main/video-thumbnail/IMG_20260327_130931_986.png">
+  <div class="play-btn">▶</div>
+</div> 
+
+
+    </div>
+  </div>
+
+  <!-- CATEGORY 3 -->
+  <div class="category">
+    <h3>Event</h3>
+    <div class="grid">
+<div class="thumb-box" onclick="openModalWithInfo('https://res.cloudinary.com/dtxvap5tq/video/upload/0730_1_-1_zzzcul.mp4','Market day droneshot edit. #3dcameratracking')">
+  <img src="https://raw.githubusercontent.com/Hasnisubhan/Portfolio-/refs/heads/main/video-thumbnail/IMG_20260325_212240_859.png">
+  <div class="play-btn">▶</div>
+</div> 
+
+<div class="thumb-box" onclick="openModalWithInfo('https://res.cloudinary.com/dtxvap5tq/video/upload/snaptik_7404837879391718674_v3_ebfsu3.mp4','Mosque annual event edit. #3dtracking #colorgrade')">
+  <img src="https://raw.githubusercontent.com/Hasnisubhan/Portfolio-/refs/heads/main/video-thumbnail/IMG_20260327_131915_505.png">
+  <div class="play-btn">▶</div>
+</div> 
+
+
+    </div>
+  </div>
+
+  <!-- CATEGORY 4 -->
+  <div class="category">
+    <h3>Intro</h3>
+    <div class="grid">
+<div class="thumb-box" onclick="openModalWithInfo('https://res.cloudinary.com/dtxvap5tq/video/upload/snaptik_7379083372145937672_v3_xniu7n.mp4','YouTube channel intro. #gamingintro')">
+  <img src="https://raw.githubusercontent.com/Hasnisubhan/Portfolio-/refs/heads/main/video-thumbnail/IMG_20260327_132214_408.png">
+  <div class="play-btn">▶</div>
+</div> 
+
+<div class="thumb-box" onclick="openModalWithInfo('https://res.cloudinary.com/dtxvap5tq/video/upload/SnapInsta.to_AQOrwK40Y1vfXJ4du45uj5pSirP99-5a-KHUFdEyTft9iIIgRaWiOTg9m-T4ooVCoychqF6EJRDE6EbgvbzkTLUwqwuB-OrUrPz9Ce0_uyodhe.mp4','Fiverr freelancer intro. #gigvideo')">
+  <img src="https://raw.githubusercontent.com/Hasnisubhan/Portfolio-/refs/heads/main/video-thumbnail/IMG_20260327_134839_658.png">
+  <div class="play-btn">▶</div>
+</div> 
+
+<div class="thumb-box" onclick="openModalWithInfo('https://res.cloudinary.com/dtxvap5tq/video/upload/SnapInsta.to_AQNQVbemBCE3D_K9dbclMuv4hlILt5Zpp6uTqmzO3toqIRWayhSfMIcmWi1EH-cC8etwCILJ1cz5jZTg5I_znv5rzkA_GmrqjWS0Q48_zcr8nh.mp4','Logo Designing intro. #logointro')">
+  <img src="https://raw.githubusercontent.com/Hasnisubhan/Portfolio-/refs/heads/main/video-thumbnail/IMG_20260327_134830_725.png">
+  <div class="play-btn">▶</div>
+</div> 
+    </div>
+  </div>
+  
+</div>
+
+  <!-- 3D -->
+  <div id="3d" class="tab-content">
+    <div class="grid">
+
+<!-- watch -->
+<div class="thumb-box" 
+onclick="openImageSliderFromElement(this, 0)"
+data-title="Chain Watch 3D Model"
+data-desc="High quality fast renderable Swizgold silver chain watch 3D model<br>45247 polygons/72266 vertices"
+data-url="https://www.cgtrader.com/3d-models/electronics/other/chain-watch-f6f8cee0-b896-4dc9-a9d4-5c928fc3a281">
+
+  <img src="https://img-new.cgtrader.com/items/6412028/6edc25048b/chain-watch-3d-model-6edc25048b.webp">
+
+  <div id="hiddenImages" style="display:none;">
+    <img src="https://img-new.cgtrader.com/items/6412028/6edc25048b/chain-watch-3d-model-6edc25048b.webp">
+    <img src="https://img-new.cgtrader.com/items/6412028/795ef96b2d/chain-watch-3d-model-795ef96b2d.webp">
+    <img src="https://img-new.cgtrader.com/items/6412028/c278353637/chain-watch-3d-model-c278353637.webp">
+    <img src="https://img-new.cgtrader.com/items/6412028/5f2b89fbec/chain-watch-3d-model-5f2b89fbec.webp">
+    <img src="https://img-new.cgtrader.com/items/6412028/3280d50371/chain-watch-3d-model-3280d50371.webp">
+  </div> 
+</div>
+
+<!-- fan -->
+<div class="thumb-box" 
+onclick="openImageSliderFromElement(this, 0)"
+data-title="Wall Fan Low-poly 3D model"
+data-desc="High quality and balanced wall fan 3d model for your interior design or game environment.<br>53268 polygons/56538 vertices"
+data-url="https://www.cgtrader.com/3d-models/electronics/other/wall-fan-8c226738-5b34-454e-b7b7-bd4e3a85fe9f">
+
+  <img src="https://img-new.cgtrader.com/items/6399779/dde27c550e/wall-fan-3d-model-dde27c550e.webp">
+
+  <div id="hiddenImages" style="display:none;">
+    <img src="https://img-new.cgtrader.com/items/6399779/dde27c550e/wall-fan-3d-model-dde27c550e.webp">
+    <img src="https://img-new.cgtrader.com/items/6399779/59c3297187/wall-fan-3d-model-59c3297187.webp">
+    <img src="https://img-new.cgtrader.com/items/6399779/f8f8258e53/wall-fan-3d-model-f8f8258e53.webp">
+    <img src="https://img-new.cgtrader.com/items/6399779/02ebb23bff/wall-fan-3d-model-02ebb23bff.webp">
+    <img src="https://img-new.cgtrader.com/items/6399779/499c66dbf9/wall-fan-3d-model-499c66dbf9.webp">
+    <img src="https://img-new.cgtrader.com/items/6399779/7539c58a6d/wall-fan-3d-model-7539c58a6d.webp">
+  </div>
+</div>
+  
+<!-- crystal lamp -->
+<div class="thumb-box" 
+onclick="openImageSliderFromElement(this, 0)"
+data-title="Crystal Glass Lamp 3D model"
+data-desc="High quality wood material, Parented & adjustable USB cable, Customizable inner object, Emissioned wirefram inner objects<br>1954 polygons/2348 vertices"
+data-url="https://www.cgtrader.com/3d-models/electronics/other/crystal-glass-lamp">
+
+  <img src="https://img-new.cgtrader.com/items/6318021/3505179433/crystal-glass-lamp-3d-model-3505179433.webp">
+
+  <div id="hiddenImages" style="display:none;">
+    <img src="https://img-new.cgtrader.com/items/6318021/3505179433/crystal-glass-lamp-3d-model-3505179433.webp">
+    <img src="https://img-new.cgtrader.com/items/6318021/029df0e8ae/crystal-glass-lamp-3d-model-029df0e8ae.jpg">
+    <img src="https://img-new.cgtrader.com/items/6318021/669506e13a/crystal-glass-lamp-3d-model-669506e13a.jpg">
+    <img src="https://img-new.cgtrader.com/items/6318021/4e9ee7da8d/crystal-glass-lamp-3d-model-4e9ee7da8d.jpg">
+    <img src="https://img-new.cgtrader.com/items/6318021/2ac418f612/crystal-glass-lamp-3d-model-2ac418f612.jpg">
+    <img src="https://img-new.cgtrader.com/items/6318021/e070cf42cf/crystal-glass-lamp-3d-model-e070cf42cf.jpg">
+    <img src="https://img-new.cgtrader.com/items/6318021/ead62307fa/crystal-glass-lamp-3d-model-ead62307fa.jpg">
+  </div> 
+</div>
+
+<!-- drone -->
+<div class="thumb-box" 
+onclick="openImageSliderFromElement(this, 0)"
+data-title="DJI Mavic 3 drone 3D model"
+data-desc="All parts of the model are separated objects.<br>100298 polygons/85469 vertices"
+data-url="https://www.cgtrader.com/3d-models/aircraft/aircraft-part/dgi-mavic-3-drone">
+
+  <img src="https://img-new.cgtrader.com/items/4974906/061b4cdc9b/dji-mavic-3-drone-3d-model-061b4cdc9b.jpg">
+
+  <div id="hiddenImages" style="display:none;">
+    <img src="https://img-new.cgtrader.com/items/4974906/061b4cdc9b/dji-mavic-3-drone-3d-model-061b4cdc9b.jpg">
+    <img src="https://img-new.cgtrader.com/items/4974906/8701582287/dji-mavic-3-drone-3d-model-8701582287.jpg">
+    <img src="https://img-new.cgtrader.com/items/4974906/dfc65f661a/dji-mavic-3-drone-3d-model-dfc65f661a.jpg">
+    <img src="https://img-new.cgtrader.com/items/4974906/cda24d9a75/dji-mavic-3-drone-3d-model-cda24d9a75.webp">
+    <img src="https://img-new.cgtrader.com/items/4974906/ea6326065b/dji-mavic-3-drone-3d-model-ea6326065b.jpg">
+    <img src="https://img-new.cgtrader.com/items/4974906/8b188a68c2/dji-mavic-3-drone-3d-model-8b188a68c2.jpg">
+    <img src="https://img-new.cgtrader.com/items/4974906/f1600b6759/dji-mavic-3-drone-3d-model-f1600b6759.jpg">
+    <img src="https://img-new.cgtrader.com/items/4974906/3192b6fabe/dji-mavic-3-drone-3d-model-3192b6fabe.jpg">
+    <img src="https://img-new.cgtrader.com/items/4974906/c92ef620a1/dji-mavic-3-drone-3d-model-c92ef620a1.jpg">
+    <img src="https://img-new.cgtrader.com/items/4974906/b7fb74ed75/dji-mavic-3-drone-3d-model-b7fb74ed75.jpg">
+    <img src="https://img-new.cgtrader.com/items/4974906/0b8924223f/dji-mavic-3-drone-3d-model-0b8924223f.jpg">
+     <img src="https://img-new.cgtrader.com/items/4974906/aafc783e14/dji-mavic-3-drone-3d-model-aafc783e14.jpg">
+    <img src="https://img-new.cgtrader.com/items/4974906/f953786e33/dji-mavic-3-drone-3d-model-f953786e33.jpg">
+    <img src="https://img-new.cgtrader.com/items/4974906/3a95bc5218/dji-mavic-3-drone-3d-model-3a95bc5218.jpg">
+    <img src="https://img-new.cgtrader.com/items/4974906/4a2434e64b/dji-mavic-3-drone-3d-model-4a2434e64b.jpg">
+  </div> 
+</div>
+
+<!-- Alto -->
+<div class="thumb-box" 
+onclick="openImageSliderFromElement(this, 0)"
+data-title="Maruti Suzuki Alto 800 LXI 3D model"
+data-desc="The 3D model is designed to look like the real LXI Suzuki Alto 800. All parts of the model are separated objects.<br>38700 polygons/38459 vertices"
+data-url="https://www.cgtrader.com/3d-models/car/car/maruti-suzuki-alto-800-lxi-3d-model">
+
+  <img src="https://img-new.cgtrader.com/items/4824948/eb74ff4694/maruti-suzuki-alto-800-lxi-3d-model-eb74ff4694.webp">
+
+  <div id="hiddenImages" style="display:none;">
+    <img src="https://img-new.cgtrader.com/items/4824948/eb74ff4694/maruti-suzuki-alto-800-lxi-3d-model-eb74ff4694.webp">
+    <img src="https://img-new.cgtrader.com/items/4824948/47d0127651/maruti-suzuki-alto-800-lxi-3d-model-47d0127651.jpg">
+    <img src="https://img-new.cgtrader.com/items/4824948/d9adad8d17/maruti-suzuki-alto-800-lxi-3d-model-d9adad8d17.jpg">
+  </div>   </div> 
+
+
+<!-- Nubbin -->
+<div class="thumb-box" 
+onclick="openImageSliderFromElement(this, 0)"
+data-title="Nubbin Device 3D model"
+data-desc="This device is currently going viral on social media. It was created as a prototype concept or promotional idea. I designed and modeled this device entirely by hand using Blender. You can adjust the lighting, materials, and textures as you wish."
+data-url="https://www.cgtrader.com/3d-models/electronics/other/nubbin-device">
+
+  <img src="https://img-new.cgtrader.com/items/6042264/38ccd740b3/nubbin-device-3d-model-38ccd740b3.webp">
+
+  <div id="hiddenImages" style="display:none;">
+    <img src="https://img-new.cgtrader.com/items/6042264/38ccd740b3/nubbin-device-3d-model-38ccd740b3.webp">
+    <img src="https://img-new.cgtrader.com/items/6042264/45673bd361/nubbin-device-3d-model-45673bd361.jpg">
+    <img src="https://img-new.cgtrader.com/items/6042264/462fb3d57e/nubbin-device-3d-model-462fb3d57e.jpg">
+    <img src="https://img-new.cgtrader.com/items/6042264/9d1230f925/nubbin-device-3d-model-9d1230f925.jpg">
+    <img src="https://img-new.cgtrader.com/items/6042264/78194cd744/nubbin-device-3d-model-78194cd744.jpg">
+  </div> 
+
+</div>
+</div>
+
+
+
+
+
+<!-- Royal Jewelry -->
+<div class="thumb-box" onclick="openModalWithInfo('https://res.cloudinary.com/dtxvap5tq/video/upload/vid-2_hzfptv.mp4','Royal Jewelery logo intro. #brandintro')">
+  <img src="https://raw.githubusercontent.com/Hasnisubhan/Portfolio-/refs/heads/main/video-thumbnail/IMG_20260327_134851_946.png">
+  <div class="play-btn">▶</div>
+</div> 
+
+    </div>
+</div>
+</section>
+
+<!-- MODAL -->
+<div id="modal" class="modal">
+  <span onclick="closeModal()">✖</span>
+  <div id="modalContent"></div>
+</div>
+
+<hr class="divider">
+
+<!--Social Media-->
+<section class="project-group">
+  <h2>Social Media Pages</h2><br>
+
+  <div class="project-card">
+
+    <!-- INSTAGRAM LOGO -->
+    <div style="text-align:center; margin-bottom:10px;">
+      <img src="https://i.ibb.co/k230NVJh/369795467-840763834512308-3937246435480791876-n.jpg" 
+           style="width:50px;">
+    </div>
+
+<h4 align="center">@sni.graphics</h4>
+
+    <p>
+      I create high-quality Instagram posts, promotional designs, and brand visuals.
+      Below are some of my sample designs showcasing creativity and modern style  (without AI).
+    </p>
+
+    <!-- CAROUSEL -->
+    <div class="ig-carousel">
+
+      <div class="ig-slide active">
+        <img src="https://i.ibb.co/pvbkr8rK/photo.webp">
+      </div>
+
+      <div class="ig-slide">
+        <img src="https://i.ibb.co/8g7WgRCQ/photo.jpg">
+      </div>
+
+      <div class="ig-slide">
+        <img src="https://i.ibb.co/fdqhGyH5/photo-1.jpg">
+      </div>
+      <div class="ig-slide">
+        <img src="https://i.ibb.co/XfRh7hdV/photo-1.webp">
+      </div>
+      <!-- CONTROLS -->
+      <button class="ig-prev" onclick="igPrev()">❮</button>
+      <button class="ig-next" onclick="igNext()">❯</button>
+
+    </div>
+
+    <!-- BUTTON -->
+    <div style="text-align:center; margin-top:15px;">
+      <a href="https://instagram.com/sni.graphics" target="_blank" class="model-link">
+        View More on Instagram
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<hr class="divider">
+
+<section class="websites">
+  <h2>Websites</h2>
+
+  <div class="website-list">
+
+    <!-- WEBSITE 1 -->
+    <div class="website-card" onclick="window.open('https://idms.assetline.space/','_blank')">
+      <div class="website-info">
+        <h4>Simple Login DB Website</h4>
+        <p>Login data write to googlesheet through sheetdb api.</p>
+      </div>
+
+      <div class="visit-icon">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      </div>
+    </div>
+
+    <!-- WEBSITE 2 -->
+    <div class="website-card" onclick="window.open('https://cibonline.store','_blank')">
+      <div class="website-info">
+        <h4>Flash Sale</h4>
+        <p>E-commerce store flash Sale website. Fully Js functions.</p>
+      </div>
+     
+      <div class="visit-icon">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      </div>
+    </div>
+    
+    <!-- WEBSITE 3 -->
+    <div class="website-card" onclick="window.open('https://hasnisubhan.github.io/Video-convertor/','_blank')">
+      <div class="website-info">
+        <h4>Video Convertor Tool</h4>
+        <p>Video compressor online tool for social media high quality uploads.</p>
+      </div>
+      
+     
+      <div class="visit-icon">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      </div>
+    </div>
+
+  </div>
+</section>
+<hr class="divider">
+<!-- PROJECTS -->
+<section class="projects">
+
+
+ <!-- Apps -->
+  <div class="project-group">
+    <h2>Android Apps</h2><br>
+
+    <div class="project-grid">
+
+<div class="app-grid">
+
+  <!-- APP 1 -->
+  <div class="app-card">
+    <img src="https://raw.githubusercontent.com/Hasnisubhan/APKS/refs/heads/main/20260402_095230.png">
+
+    <div class="app-info">
+      <h4>Seettu Tracker – Admin App</h4>
+      <p>An admin panel to create accounts, manage members, and track all seettu activities.</p>
+    </div>
+
+    <a href="https://github.com/Hasnisubhan/APKS/raw/refs/heads/main/Seettu%20Tracker%20Admin.apk" download class="app-download-icon">
+      <i class="fa-solid fa-download"></i>
+    </a>
+  </div>
+
+  <!-- APP 2 -->
+  <div class="app-card">
+    <img src="https://raw.githubusercontent.com/Hasnisubhan/APKS/refs/heads/main/20260402_095313.png">
+
+    <div class="app-info">
+      <h4>Seettu Tracker – Member App</h4>
+      <p>A simple app for members to track seettu payments, view history, and check progress in real time.</p>
+    </div>
+
+    <a href="https://github.com/Hasnisubhan/APKS/raw/refs/heads/main/Seettu%20Tracker%20Member.apk" download class="app-download-icon">
+      <i class="fa-solid fa-download"></i>
+    </a>
+  </div>
+
+  <!-- APP 3 -->
+  <div class="app-card">
+    <img src="https://i.ibb.co/dYf3L4J/download.png">
+
+    <div class="app-info">
+      <h4>Funds Tracker</h4>
+      <p>An app to manage personal funds and daily savings with expense and income tracking.</p>
+    </div>
+
+    <a href="https://github.com/Hasnisubhan/APKS/raw/refs/heads/main/Funds-Tracker.apk" target="_blank" class="app-download-icon">
+      <i class="fa-solid fa-download"></i>
+    </a>
+  </div>
+
+</div>
+  </div>
+</section>
+
+<!-- SOCIAL -->
+<section class="social">
+  <div class="icons">
+    <a href="https://www.tiktok.com/@hasni.fx"><i class="fab fa-tiktok"></i></a>
+    <a href="https://www.instagram.com/hasni_subhan"><i class="fab fa-instagram"></i></a>
+    <a href="https://t.me/hasnisubhan"><i class="fab fa-telegram"></i></a>
+    <a href="https://github.com/Hasnisubhan"><i class="fab fa-github"></i></a>
+  </div>
+  
+
+</section>
+  
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 All rights reserved | Developed by Hasni Subhan</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
