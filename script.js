@@ -84,13 +84,7 @@ function openModalWithInfo(src, caption = "") {
   }
 }
 
-window.addEventListener("load", () => {
-  const loader = document.getElementById("loader");
 
-  setTimeout(() => {
-    loader.classList.add("hidden");
-  }, 800); // small delay for smooth feel
-});
 
 
 // ================= IMAGE SLIDER =================
